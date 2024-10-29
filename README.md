@@ -51,7 +51,7 @@ pip install -r requirements.txt
 │   ├── bert_model/
 │   └── mistral_model/
 ├── notebooks/
-│   ├── data_exploration.ipynb
+│   ├── data_analysis.ipynb
 │   └── model_evaluation.ipynb
 ├── src/
 │   ├── data_preprocessing.py
