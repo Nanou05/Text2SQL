@@ -1,6 +1,6 @@
 # Text2SQL
-This project implements two different approaches to converting natural language questions into SQL queries using transformer-based models:/n
-BERT and Mistral-7B./n
+This project implements two different approaches to converting natural language questions into SQL queries using transformer-based models:
+BERT and Mistral-7B
 The system is trained on the WikiSQL dataset and can generate SQL queries from natural language questions about database tables.
 
 ## Project Overview
@@ -51,7 +51,7 @@ pip install -r requirements.txt
 │   ├── bert_model/
 │   └── mistral_model/
 ├── notebooks/
-│   ├── data_exploration.ipynb
+│   ├── data_analysis.ipynb
 │   └── model_evaluation.ipynb
 ├── src/
 │   ├── data_preprocessing.py
