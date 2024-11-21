@@ -26,7 +26,7 @@ trl>=0.7.2
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/Text2sSQL.git
+git clone https://github.com/nanou05/Text2sSQL.git
 cd Text2sSQL
 ```
 
