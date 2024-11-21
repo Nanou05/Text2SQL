@@ -50,6 +50,7 @@ pip install -r requirements.txt
 ├── models/
 │   ├── bert_model/
 │   └── mistral_model/
+│   └── bard_model/
 ├── notebooks/
 │   ├── data_analysis.ipynb
 │   └── model_evaluation.ipynb
@@ -57,6 +58,7 @@ pip install -r requirements.txt
 │   ├── data_preprocessing.py
 │   ├── bert_model.py
 │   └── mistral_model.py
+│   └── bard_model.py
 ├── README.md
 └── requirements.txt
 ```
@@ -98,13 +100,15 @@ model, tokenizer = setup_model()
 # Train model
 train_model(model, tokenizer, train_dataset, val_dataset)
 ```
+## Bard Approach
 
 ## Model Comparison
 
 | Model | Exact Match Accuracy | Execution Accuracy | Training Time | Model Size |
 |-------|---------------------|-------------------|---------------|------------|
 | BERT  | %                 | %               | ~1 hours      | ~110M      |
-| Mistral| %                | %               | ~1.5 hours      | ~7B        |
+| Mistral| %                | %               | ~6 hours      | ~7B        |
+| Bard| %                | %               | ~1.5 hours      | ~110M        |
 
 ## Usage
 
