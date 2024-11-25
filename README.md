@@ -50,7 +50,7 @@ pip install -r requirements.txt
 ├── models/
 │   ├── bert_model/
 │   └── mistral_model/
-│   └── bard_model/
+│   └── bart_model/
 ├── notebooks/
 │   ├── data_analysis.ipynb
 │   └── model_evaluation.ipynb
@@ -58,7 +58,7 @@ pip install -r requirements.txt
 │   ├── data_preprocessing.py
 │   ├── bert_model.py
 │   └── mistral_model.py
-│   └── bard_model.py
+│   └── bart_model.py
 ├── README.md
 └── requirements.txt
 ```
@@ -100,7 +100,7 @@ model, tokenizer = setup_model()
 # Train model
 train_model(model, tokenizer, train_dataset, val_dataset)
 ```
-## Bard Approach
+## Bart Approach
 
 ## Model Comparison
 
@@ -108,7 +108,7 @@ train_model(model, tokenizer, train_dataset, val_dataset)
 |-------|---------------------|-------------------|---------------|------------|
 | BERT  | %                 | %               | ~1 hours      | ~110M      |
 | Mistral| %                | %               | ~6 hours      | ~7B        |
-| Bard| %                | %               | ~1.5 hours      | ~110M        |
+| Bart| %                | %               | ~1.5 hours      | ~110M        |
 
 ## Usage
 
@@ -125,6 +125,11 @@ sql_query = bert_generate(model, question)
 from src.mistral_model import generate_sql as mistral_generate
 
 sql_query = mistral_generate(model, tokenizer, question)
+
+# Using Bart
+from src.bart_model import generate_sql as bart_generate
+
+sql_query = bart_generate(model, tokenizer, question)
 ```
 
 ## Dataset
