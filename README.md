@@ -1,6 +1,6 @@
 # Text2SQL
 This project implements two different approaches to converting natural language questions into SQL queries using transformer-based models:
-BERT and Mistral-7B
+BERT, BART, and Mistral-7B
 The system is trained on the WikiSQL dataset and can generate SQL queries from natural language questions about database tables.
 
 ## Project Overview
